@@ -1,1 +1,1 @@
-# hair
+# hair - Home Assistant IR blaster
