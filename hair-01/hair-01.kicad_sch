@@ -2569,7 +2569,7 @@
     (property "Value" "CP2102N-Axx-xQFN24" (id 1) (at 200.66 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm" (id 2) (at 231.14 95.25 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" (id 2) (at 231.14 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" (id 3) (at 200.66 87.63 0)
@@ -3581,7 +3581,7 @@
       (reference "U2") (unit 1) (value "AP2112K-3.3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/57a35f7e-1eec-4bce-82d8-651d3f20ac22"
-      (reference "U3") (unit 1) (value "CP2102N-Axx-xQFN24") (footprint "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm")
+      (reference "U3") (unit 1) (value "CP2102N-Axx-xQFN24") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4a2b5cd4-5349-4db9-bad8-5838bfe646c9"
       (reference "U4") (unit 1) (value "TSMP58000") (footprint "OptoDevice:Vishay_MINICAST-3Pin")
