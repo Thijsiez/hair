@@ -2260,7 +2260,7 @@
   (symbol (lib_id "Device:LED_Small") (at 251.46 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2f375a34-8f19-4e0e-9faa-8667ac532147)
-    (property "Reference" "D2" (id 0) (at 254 102.8064 90)
+    (property "Reference" "D5" (id 0) (at 254 102.8064 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "HIR67-21C" (id 1) (at 254 105.3464 90)
@@ -2505,7 +2505,7 @@
   (symbol (lib_id "power:GND") (at 234.95 151.13 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 56c37fb4-8586-41a1-bb86-a336aad0691f)
-    (property "Reference" "#PWR?" (id 0) (at 234.95 157.48 0)
+    (property "Reference" "#PWR0126" (id 0) (at 234.95 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 234.95 154.94 0))
@@ -2700,7 +2700,7 @@
   (symbol (lib_id "power:VBUS") (at 251.46 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6d3c885f-f204-4303-8718-76b0888b083a)
-    (property "Reference" "#PWR?" (id 0) (at 251.46 90.17 0)
+    (property "Reference" "#PWR0127" (id 0) (at 251.46 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (id 1) (at 251.46 82.55 0))
@@ -2820,7 +2820,7 @@
   (symbol (lib_id "power:+3.3V") (at 234.95 140.97 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 809f19e5-adbf-43c9-ac69-4b9242bfc168)
-    (property "Reference" "#PWR?" (id 0) (at 234.95 144.78 0)
+    (property "Reference" "#PWR0125" (id 0) (at 234.95 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 234.95 137.16 0))
@@ -3296,7 +3296,7 @@
   (symbol (lib_id "power:GND") (at 251.46 124.46 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f70317a6-1871-43c4-85ae-861e13960494)
-    (property "Reference" "#PWR?" (id 0) (at 251.46 130.81 0)
+    (property "Reference" "#PWR0128" (id 0) (at 251.46 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 251.46 128.27 0))
@@ -3367,7 +3367,7 @@
   (symbol (lib_id "Device:LED_Small") (at 251.46 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ff2c165b-fcf1-4e49-a130-75315ee7c31f)
-    (property "Reference" "D1" (id 0) (at 254 87.5664 90)
+    (property "Reference" "D4" (id 0) (at 254 87.5664 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "HIR67-21C" (id 1) (at 254 90.1064 90)
@@ -3463,17 +3463,17 @@
     (path "/97264538-24db-40e9-af0a-0b82cf50ee71"
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
+    (path "/809f19e5-adbf-43c9-ac69-4b9242bfc168"
+      (reference "#PWR0125") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/56c37fb4-8586-41a1-bb86-a336aad0691f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
     (path "/6d3c885f-f204-4303-8718-76b0888b083a"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/809f19e5-adbf-43c9-ac69-4b9242bfc168"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0127") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/f70317a6-1871-43c4-85ae-861e13960494"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
     (path "/e3e9735d-c510-487b-99b0-46bcb726e4b1"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -3499,17 +3499,17 @@
     (path "/71cd1508-f15e-4c21-bb2f-39ac996ef8d4"
       (reference "D1") (unit 1) (value "0603ESDA-05N") (footprint "Diode_SMD:D_0603_1608Metric")
     )
-    (path "/ff2c165b-fcf1-4e49-a130-75315ee7c31f"
-      (reference "D1") (unit 1) (value "HIR67-21C") (footprint "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/2f375a34-8f19-4e0e-9faa-8667ac532147"
-      (reference "D2") (unit 1) (value "HIR67-21C") (footprint "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
     (path "/4b834fac-5506-4328-bf03-f80519218eb0"
       (reference "D2") (unit 1) (value "0603ESDA-05N") (footprint "Diode_SMD:D_0603_1608Metric")
     )
     (path "/47f7b426-cc11-4d4d-a2a8-413d976785be"
       (reference "D3") (unit 1) (value "0603ESDA-05N") (footprint "Diode_SMD:D_0603_1608Metric")
+    )
+    (path "/ff2c165b-fcf1-4e49-a130-75315ee7c31f"
+      (reference "D4") (unit 1) (value "HIR67-21C") (footprint "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    )
+    (path "/2f375a34-8f19-4e0e-9faa-8667ac532147"
+      (reference "D5") (unit 1) (value "HIR67-21C") (footprint "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
     (path "/ddcc8b27-b0b1-4e05-a565-cdc8d0a9dd1e"
       (reference "J1") (unit 1) (value "TYPE-C-31-M-12") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
