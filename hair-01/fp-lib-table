@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "hair-01")(type "KiCad")(uri "${KIPRJMOD}/hair-01.pretty")(options "")(descr ""))
+  (lib (name "hair")(type "KiCad")(uri "${KIPRJMOD}/../hair.pretty")(options "")(descr ""))
 )

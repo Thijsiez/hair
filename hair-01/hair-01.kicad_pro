@@ -353,6 +353,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
+      "hair",
       "hair-01"
     ],
     "pinned_symbol_libs": []
