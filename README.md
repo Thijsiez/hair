@@ -7,3 +7,4 @@ As long as this message is here, I'm open to suggestions but please do not assum
 
 ## Versions
 - [01](./hair-01) is a flawed prototype **DO NOT BUILD OR REFERENCE**
+- [02](./hair-02) **WIP**
