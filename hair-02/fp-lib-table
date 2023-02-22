@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "hair-02")(type "KiCad")(uri "${KIPRJMOD}/hair-02.pretty")(options "")(descr ""))
+)
