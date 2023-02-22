@@ -964,7 +964,7 @@
       (property "Value" "ESP32-C3-WROOM-02" (id 1) (at 12.7 16.51 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (id 2) (at 14.605 -17.145 0)
+      (property "Footprint" "hair-02:ESP32-C3-WROOM-02" (id 2) (at 16.51 -17.145 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf" (id 3) (at 0 -28.575 0)
@@ -1752,7 +1752,7 @@
     (property "Value" "ESP32-C3-WROOM-02" (id 1) (at 83.82 83.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 103.505 80.645 0)
+    (property "Footprint" "hair-02:ESP32-C3-WROOM-02" (id 2) (at 103.505 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf" (id 3) (at 88.9 92.075 0)
@@ -3050,7 +3050,7 @@
       (reference "RST_SW2") (unit 1) (value "SKRK") (footprint "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK")
     )
     (path "/13726d9d-fbe1-483a-84a4-1b1ebec6db05"
-      (reference "U1") (unit 1) (value "ESP32-C3-WROOM-02") (footprint "")
+      (reference "U1") (unit 1) (value "ESP32-C3-WROOM-02") (footprint "hair-02:ESP32-C3-WROOM-02")
     )
     (path "/e6669ec5-528f-4678-b381-e1890d50919a"
       (reference "U2") (unit 1) (value "AP2112K-3.3") (footprint "Package_TO_SOT_SMD:SOT-23-5")

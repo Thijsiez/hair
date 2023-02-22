@@ -235,8 +235,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "hair-02"
+    ],
+    "pinned_symbol_libs": [
+      "hair-02"
+    ]
   },
   "meta": {
     "filename": "hair-02.kicad_pro",
