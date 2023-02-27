@@ -77,7 +77,7 @@
   (zone (net 0) (net_name "") (layers *.Cu *.Paste "F.Fab") (tstamp e615f7aa-337e-474d-9615-2ad82b1c44ca) (name "Antenna") (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
