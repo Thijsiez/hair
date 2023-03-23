@@ -51,7 +51,7 @@
   (pad "2" smd roundrect (at 0 7.325) (size 1.7 6.1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp a7df2d92-bb64-4799-bf2e-a470e518e233))
   (pad "3" smd roundrect (at -2.54 7.325) (size 1.7 6.1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 7626ef76-584a-445f-9e79-de3783be12b9))
   (model "${KICAD6_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_MINICAST-3Pin.step"
-    (offset (xyz 2.54 -6.875 0))
+    (offset (xyz 2.54 -6.875 0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))
   )
